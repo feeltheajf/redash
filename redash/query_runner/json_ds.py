@@ -41,7 +41,7 @@ def parse_query(query):
 def is_trusted_address(url):
     for trusted in TRUSTED_URLS:
         u = urlparse(url)
-        if trusted.netloc == u.netloc:
+        if trusted.scheme == u.scheme and trusted.netloc == u.netloc:
             return True
     return False
 
