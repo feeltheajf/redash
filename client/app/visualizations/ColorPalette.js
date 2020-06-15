@@ -2,20 +2,22 @@ import { values } from 'lodash';
 
 // The following colors will be used if you pick "Automatic" color
 export const BaseColors = {
-  Blue: '#356AFF',
-  Red: '#E92828',
-  Green: '#3BD973',
+  Blue: '#005ABE',
+  Red: '#D92C23',
+  Yellow: 'FFA30F',
+  Green: '#82B414',
   Purple: '#604FE9',
   Cyan: '#50F5ED',
-  Orange: '#FB8D3D',
-  'Light Blue': '#799CFF',
+  Orange: '#FF7200',
+  'Light Blue': '#7FBCFF',
   Lilac: '#B554FF',
   'Light Green': '#8CFFB4',
   Brown: '#A55F2A',
   Black: '#000000',
-  Gray: '#494949',
+  Gray: '#404040',
   Pink: '#FF7DE3',
-  'Dark Blue': '#002FB4',
+  'Dark Blue': '#00204D',
+  'Light Gray': '#D9D9D9',
 };
 
 // Additional colors for the user to choose from
