@@ -62,6 +62,7 @@ function prepareLineSeries(series, options) {
 function prepareAreaSeries(series, options) {
   series.mode = 'lines' + (options.showDataLabels ? '+text' : '');
   series.fill = options.series.stacking ? 'tonexty' : 'tozeroy';
+  series.line = { "width": 0 }
   return series;
 }
 
