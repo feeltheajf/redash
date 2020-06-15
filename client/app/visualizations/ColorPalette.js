@@ -4,7 +4,7 @@ import { values } from 'lodash';
 export const BaseColors = {
   Blue: '#005ABE',
   Red: '#D92C23',
-  Yellow: 'FFA30F',
+  Yellow: '#FFA30F',
   Green: '#82B414',
   Purple: '#604FE9',
   Cyan: '#50F5ED',
