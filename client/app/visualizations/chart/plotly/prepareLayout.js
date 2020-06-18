@@ -113,7 +113,7 @@ function prepareBoxLayout(layout, options, data) {
 
 function prepareAreaLayout(layout, options, data) {
   layout = prepareDefaultLayout(layout, options, data);
-  layout.yaxis = { fixedrange: true }
+  layout.yaxis.fixedrange = true
   return layout;
 }
 
